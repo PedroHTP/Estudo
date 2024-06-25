@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgoldenrodyellow;
+    color: maroon;
+    font-size: 15pt;
+    font-family: Arial;
+}
+p {
+    color: black;
+}
+h1 {
+    background-color: goldenrod;
+}
