@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: violet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkviolet;
+        }
+
+        a:hover {
+            background-color: pink;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(74, 29, 125);
+        }
+
+        .especial {
+            background-color: rgb(49, 49, 128);
+        }
+        
+        .especial::before {
+            content: '⇨';
+            font-weight: normal;
+            color: rgb(223, 73, 223);
+        }
+
+        .especial::after {
+            content: '⇦';
+            font-weight: normal;
+            color: rgb(223, 73, 223);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" rel="external" hreflang="pt-br" target="_blank">Repósitorio Github</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemVídeo" rel="external" hreflang="pt-br" target="_blank" class="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemVídeo" rel="external" hreflang="pt-br" target="_blank">Site do CursoemVideo</a></li>
+        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjh3fSp1ZOHAxUCqZUCHb1kAcsQFnoECEYQAQ&url=https%3A%2F%2Fwww.tomate.tv%2F&usg=AOvVaw0D8L-K0ZfccB1BZIH8sPuo&opi=89978449" rel="external" hreflang="pt-br" target="_blank">Tomate</a></li>
+    </ul>
+</body>
+</html>
